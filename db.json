@@ -1,0 +1,103 @@
+{
+  "students": [
+    {
+      "username": "zainab",
+      "email": "zoza@zo.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "essam",
+      "email": "es@es.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "الرياضيات",
+          "id": "2",
+          "degree": 2
+        },
+        {
+          "name": "اللغه العربية",
+          "id": "1",
+          "degree": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "username": "زينب ",
+      "email": "zainab@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "اللغه العربية",
+          "id": "1",
+          "degree": 2
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "اللغه العربية",
+      "questions": [
+        {
+          "question": "ذهب عصام: عصام",
+          "answer1": "فعل",
+          "answer2": "فاعل",
+          "answer3": "خبر",
+          "answer4": "مبتدا",
+          "correctAnswer": "فاعل"
+        },
+        {
+          "question": "زينب فتاه جميله :زينب",
+          "answer1": "فعل",
+          "answer2": "فاعل",
+          "answer3": "خبر",
+          "answer4": "مبتدا",
+          "correctAnswer": "مبتدا"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "الرياضيات",
+      "questions": [
+        {
+          "question": "2+2",
+          "answer1": "4",
+          "answer2": "20",
+          "answer3": "40",
+          "answer4": "30",
+          "correctAnswer": "4"
+        },
+        {
+          "question": "2*2",
+          "answer1": "4",
+          "answer2": "20",
+          "answer3": "40",
+          "answer4": "30",
+          "correctAnswer": "4"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "login": [
+    {
+      "username": "admin",
+      "userId": 1,
+      "rol": "doctor",
+      "id": 1
+    }
+  ]
+}
